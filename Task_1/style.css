@@ -1,0 +1,30 @@
+body {
+    width: 700px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    position: relative;
+}
+
+.control {
+    flex: 1;
+}
+
+.control .color-picker {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#draw {
+    cursor: pointer;
+    border-left: 1px solid black;
+}
+
+#clear {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
